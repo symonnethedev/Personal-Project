@@ -23,11 +23,11 @@
   background-color: white !important;
   font-weight: 900 !important;
   text-transform: inherit !important;
-  color: #9932cc !important;
+  color: #4b0082 !important;
 }
 
 .banner__info > button {
-  background-color: ##9932cc;
+  background-color: #4b0082;
   color: white;
   text-transform: inherit;
   margin-top: 20px;
@@ -36,7 +36,7 @@
 
 .banner__info > button:hover {
   background-color: white;
-  color: #9932cc;
+  color: #4b0082;
 }
 
 .banner__info > h5 {
