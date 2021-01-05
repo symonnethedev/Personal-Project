@@ -5,6 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import SearchPage from "./SearchPage";
 import Login from "./Login";
+//import testCard from "./testCard";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -16,6 +17,9 @@ function App() {
         <Header />
 
         <Switch>
+          <Route path="/Casa-pastis">
+            <testCard Page />
+          </Route>
           <Route path="/login">
             <Login Page />
           </Route>
