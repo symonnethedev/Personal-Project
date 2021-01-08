@@ -15,10 +15,10 @@ function Home() {
       <div className="home__section">
         <Card
           src="https://images.unsplash.com/photo-1564501049559-0b54b6f0dc1b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2089&q=80"
-          title="CASA PASTIS"
+          title="casaPastis"
           description="Lavish modern villa"
         >
-          description="Deluxe villa with spacious rooms." />
+          description="Deluxe villa with spacious rooms."
         </Card>
 
         <Card

@@ -5,8 +5,9 @@ import Header from "./Header";
 import Footer from "./Footer";
 import SearchPage from "./SearchPage";
 import Login from "./Login";
-//import testCard from "./testCard";
-
+import casaPastis from "./casaPastis";
+//import Sacalma from "./Sacalma";
+//import Calacontasunset from "./Calacontasunset";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,10 +16,9 @@ function App() {
     <div className="app">
       <Router>
         <Header />
-
         <Switch>
-          <Route path="/Casa-pastis">
-            <testCard Page />
+          <Route path="/casaPastis">
+            <casaPastis Page />
           </Route>
           <Route path="/login">
             <Login Page />
