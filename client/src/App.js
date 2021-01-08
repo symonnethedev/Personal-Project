@@ -6,8 +6,10 @@ import Footer from "./Footer";
 import SearchPage from "./SearchPage";
 import Login from "./Login";
 import casaPastis from "./casaPastis";
-//import Sacalma from "./Sacalma";
-//import Calacontasunset from "./Calacontasunset";
+import vistaAlegre from "./vistaAlegre";
+import calacontaSunset from "./calacontaSunset";
+import sanLorenzo from "./sanLorenzo";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +19,18 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/sanLorenzo">
+            <sanLorenzo Page />
+          </Route>
+          <Route path="/calacontaSunset">
+            <calacontaSunset Page />
+          </Route>
+          <Route path="/vistaAlegre">
+            <vistaAlegre Page />
+          </Route>
+          <Route path="/saCalma">
+            <saCalma Page />
+          </Route>
           <Route path="/casaPastis">
             <casaPastis Page />
           </Route>
