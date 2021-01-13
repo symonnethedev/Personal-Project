@@ -9,13 +9,6 @@ import casaPastis from "./casaPastis";
 import vistaAlegre from "./vistaAlegre";
 import calacontaSunset from "./calacontaSunset";
 import sanLorenzo from "./sanLorenzo";
-import villaMieke from "./villaMieke";
-import villaAlessandra from "./villaAlessandra";
-import canaMilene from "./canaMilene";
-import villaEmilto from "./villaEmilto";
-import serenaVista from "./serenaVista ";
-import belleVilla from "./belleVilla";
-import villaYama from "./villaYama";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -26,26 +19,26 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/villaYama">
-            <villaYama Page />
+          <Route path="/villaMieke">
+            <villaMieke Page />
           </Route>
-          <Route path="/belleVilla">
-            <belleVilla Page />
+          <Route path="/villaAlessandra">
+            <villaAlessandra Page />
+          </Route>
+          <Route path="/canaMilene">
+            <canaMilene Page />
+          </Route>
+          <Route path="/villaEmilto">
+            <villaEmilto Page />
           </Route>
           <Route path="/serenaVista ">
             <serenaVista Page />
           </Route>
-          <Route path="/villaEmilto ">
-            <villaEmilto Page />
+          <Route path="/belleVilla">
+            <belleVilla Page />
           </Route>
-          <Route path="/canaMilene ">
-            <canaMilene Page />
-          </Route>
-          <Route path="/villaAlessandra ">
-            <villaAlessandra Page />
-          </Route>
-          <Route path="/villaMieke ">
-            <villaMieke Page />
+          <Route path="/villaYama">
+            <villaYama Page />
           </Route>
           <Route path="/sanLorenzo">
             <sanLorenzo Page />

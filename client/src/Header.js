@@ -20,7 +20,7 @@ function Header() {
       </div>
 
       <div className="header__right">
-        <Link to="/login">
+        <Link to="/login" style={{ textDecoration: "none" }}>
           <Avatar />
           <h3> My Account </h3>
         </Link>
