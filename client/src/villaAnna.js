@@ -1,7 +1,6 @@
 import React from "react";
-import "./villaAnna.css";
 
-const villaAnna = () => {
+const VillaAnna = () => {
   return (
     <div>
       <h2>Welcome Villa Anna </h2>
@@ -43,4 +42,4 @@ const villaAnna = () => {
   );
 };
 
-export default villaAnna;
+export default VillaAnna;

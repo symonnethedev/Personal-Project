@@ -18,6 +18,7 @@ import VillaAtzi from "./VillaAtzi";
 import SaCalma from "./SaCalma";
 import VillaEmilito from "./VillaEmilito";
 import SerenaVista from "./SerenaVista";
+import VillaAnna from "./VillaAnna";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/VillaAtzi" render={() => <VillaAtzi />} />
           <Route path="/VistaAlegre" render={() => <VistaAlegre />} />
           <Route path="/SaCalma" render={() => <SaCalma />} />
+          <Route path="/VillaAnna" render={() => <VillaAnna />} />
           <Route exact path="/CasaPastis" render={() => <CasaPastis />} />
           <Route path="/login">
             <Login Page />
