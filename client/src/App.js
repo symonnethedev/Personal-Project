@@ -5,10 +5,13 @@ import Header from "./Header";
 import Footer from "./Footer";
 import SearchPage from "./SearchPage";
 import Login from "./Login";
-import casaPastis from "./casaPastis";
+import CasaPastis from "./CasaPastis";
 import vistaAlegre from "./vistaAlegre";
 import calacontaSunset from "./calacontaSunset";
 import sanLorenzo from "./sanLorenzo";
+import Like from "./Like";
+import BelleVilla from "./BelleVilla";
+import VillaYama from "./VillaYama";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -34,12 +37,9 @@ function App() {
           <Route path="/serenaVista ">
             <serenaVista Page />
           </Route>
-          <Route path="/belleVilla">
-            <belleVilla Page />
-          </Route>
-          <Route path="/villaYama">
-            <villaYama Page />
-          </Route>
+          <Route path="/BelleVilla" render={() => <BelleVilla />} />
+          <Route path="/VillaYama" render={() => <VillaYama />} />
+
           <Route path="/sanLorenzo">
             <sanLorenzo Page />
           </Route>
@@ -52,9 +52,7 @@ function App() {
           <Route path="/saCalma">
             <saCalma Page />
           </Route>
-          <Route path="/casaPastis">
-            <casaPastis Page />
-          </Route>
+          <Route exact path="/CasaPastis" render={() => <CasaPastis />} />
           <Route path="/login">
             <Login Page />
           </Route>

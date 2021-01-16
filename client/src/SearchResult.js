@@ -3,6 +3,7 @@ import "./SearchResult.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
 import { Link } from "react-router-dom";
+import { AirlineSeatReclineNormalRounded } from "@material-ui/icons";
 
 function SearchResult({
   img,
