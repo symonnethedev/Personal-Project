@@ -52,10 +52,10 @@ function Home() {
         />
         <Card
           src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80"
-          title="Calaconta Sunset "
+          title="Villa Atzi "
           description="Beautiful modern villa"
           price="£428/night"
-          url="/calacontaSunset"
+          url="/VillaAzti"
         />
       </div>
     </div>

@@ -1,10 +1,9 @@
 import react from "react";
-import "./villaAlessandra.css";
 
-const villaAlessandra = () => {
+const VillaEmilto = () => {
   return (
     <div>
-      <h2>Welcome Villa Alessandra </h2>
+      <h2>Welcome Villa Emilto </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
 
       <p>
@@ -43,4 +42,4 @@ const villaAlessandra = () => {
   );
 };
 
-export default villaAlessandra;
+export default VillaEmilto;

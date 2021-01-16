@@ -6,12 +6,18 @@ import Footer from "./Footer";
 import SearchPage from "./SearchPage";
 import Login from "./Login";
 import CasaPastis from "./CasaPastis";
-import vistaAlegre from "./vistaAlegre";
-import calacontaSunset from "./calacontaSunset";
-import sanLorenzo from "./sanLorenzo";
+import VistaAlegre from "./VistaAlegre";
 import Like from "./Like";
 import BelleVilla from "./BelleVilla";
 import VillaYama from "./VillaYama";
+import VillaMieke from "./VillaMieke";
+import CanaMilene from "./CanaMilene";
+import SanLorenzo from "./SanLorenzo";
+import VillaAlessandra from "./VillaAlessandra";
+import VillaAtzi from "./VillaAtzi";
+import SaCalma from "./SaCalma";
+import VillaEmilito from "./VillaEmilito";
+import SerenaVista from "./SerenaVista";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -22,36 +28,17 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/villaMieke">
-            <villaMieke Page />
-          </Route>
-          <Route path="/villaAlessandra">
-            <villaAlessandra Page />
-          </Route>
-          <Route path="/canaMilene">
-            <canaMilene Page />
-          </Route>
-          <Route path="/villaEmilto">
-            <villaEmilto Page />
-          </Route>
-          <Route path="/serenaVista ">
-            <serenaVista Page />
-          </Route>
+          <Route path="/VillaMieke" render={() => <VillaMieke />} />
+          <Route path="/VillaAlessandra" render={() => <VillaAlessandra />} />
+          <Route path="/CanaMilene" render={() => <CanaMilene />} />
+          <Route path="/VillaEmilito" render={() => <VillaEmilito />} />
+          <Route path="/SerenaVista" render={() => <SerenaVista />} />
           <Route path="/BelleVilla" render={() => <BelleVilla />} />
           <Route path="/VillaYama" render={() => <VillaYama />} />
-
-          <Route path="/sanLorenzo">
-            <sanLorenzo Page />
-          </Route>
-          <Route path="/calacontaSunset">
-            <calacontaSunset Page />
-          </Route>
-          <Route path="/vistaAlegre">
-            <vistaAlegre Page />
-          </Route>
-          <Route path="/saCalma">
-            <saCalma Page />
-          </Route>
+          <Route path="/SanLorenzo" render={() => <SanLorenzo />} />
+          <Route path="/VillaAtzi" render={() => <VillaAtzi />} />
+          <Route path="/VistaAlegre" render={() => <VistaAlegre />} />
+          <Route path="/SaCalma" render={() => <SaCalma />} />
           <Route exact path="/CasaPastis" render={() => <CasaPastis />} />
           <Route path="/login">
             <Login Page />
