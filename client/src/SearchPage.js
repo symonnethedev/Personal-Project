@@ -16,8 +16,8 @@ function SearchPage() {
         <Button variant="outlined">More filters</Button>
       </div>
       <SearchResult
-        img="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlsbGF8ZW58MHx8MHw%3D&auto=format&fit=crop&w=800&q=60"
         location="Private rooms near the center of Greece"
+        img="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlsbGF8ZW58MHx8MHw%3D&auto=format&fit=crop&w=800&q=60"
         title="Villa Mieke"
         description=" 6 guest · 4 bedroom · 6 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
         star={4.73}
@@ -46,6 +46,7 @@ function SearchPage() {
         price="£355 / night"
         total="£2,485 total"
         url="/canaMilene"
+        style=""
       />
       <SearchResult
         img="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1647&q=80"

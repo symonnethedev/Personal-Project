@@ -11,7 +11,7 @@ const casaPastis = () => {
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the
         island’s largest beaches, a picturesque setting and plenty of things to
         do in town. The four-bedroom villa itself adopts a contemporary style
-        washed in white to accompany its beautiful modern interior. `Guests will
+        washed in white to accompany its beautiful modern interior. Guests will
         be able to enjoy the stunning panoramic views of the surrounding hills
         that evoke a sense of privacy amongst nature. The spacious, open-plan
         design makes spending time inside a pleasure while the expansive glass
