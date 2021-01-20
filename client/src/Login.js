@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -12,8 +12,23 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
+import { LocalGasStation, TabUnselectedSharp } from "@material-ui/icons";
 
-function Copyright() {
+function Copyright({ SignIn, error }) {
+  const [details, setDetails] = useState({ email: "", password: "" });
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+
+    Login(details);
+  };
+
+  //line74className={classes.form} noValidate
+  //onSubmit={submitHandler}
+  //onChange={e => setDetails({...details, email: e.target.value})} value={details.email} />
+  //onChange={e => setDetails({...details, password: e.target.value})} value={details.password} />
+  //{(error != "") ? (<div className="error">(error)</div> ): ""}
+
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
@@ -59,7 +74,7 @@ export default function SignIn() {
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
-        <form className={classes.form} noValidate>
+        <form onSubmit={submitHandler}>
           <TextField
             variant="outlined"
             margin="normal"
