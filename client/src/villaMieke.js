@@ -1,11 +1,14 @@
 import react from "react";
 import "./villaMieke.css";
+import villa7 from "./images/vista-alegre.jpeg";
 
 const villaMieke = () => {
   return (
     <div>
       <h2>Welcome Villa Mieke </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
+
+      <img src={villa7} alt="Some text" />
 
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the

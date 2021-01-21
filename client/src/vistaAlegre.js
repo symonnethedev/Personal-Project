@@ -1,11 +1,14 @@
 import React from "react";
 import "./vistaAlegre.css";
+import villa3 from "./images/vista-alegre.jpeg";
 
 const vistaAlegre = () => {
   return (
     <div>
       <h2>Welcome Vista Alegre </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
+
+      <img src={villa3} alt="Some text" />
 
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the

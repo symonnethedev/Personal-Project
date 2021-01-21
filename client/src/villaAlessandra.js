@@ -1,5 +1,6 @@
 import react from "react";
 import "./villaAlessandra.css";
+import villa8 from "./images/villa-atzi.jpeg";
 
 const villaAlessandra = () => {
   return (
@@ -7,6 +8,7 @@ const villaAlessandra = () => {
       <h2>Welcome Villa Alessandra </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
 
+      <img src={villa8} alt="Some text" />
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the
         island’s largest beaches, a picturesque setting and plenty of things to

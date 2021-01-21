@@ -1,11 +1,14 @@
 import React from "react";
 import "./saCalma.css";
+import villa2 from "./images/sa-calma.jpeg";
 
 const SaCalma = () => {
   return (
     <div>
       <h2>Welcome Sa Calma </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
+
+      <img src={villa2} alt="Some text" />
 
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the

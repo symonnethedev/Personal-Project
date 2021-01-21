@@ -1,10 +1,13 @@
 import React from "react";
+import villa4 from "./images/villa-anna.jpeg";
 
 const VillaAnna = () => {
   return (
     <div>
-      <h2>Welcome Villa Anna </h2>
+      <h2>Welcome Sa Calma </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
+
+      <img src={villa4} alt="Some text" />
 
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the

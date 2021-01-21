@@ -38,7 +38,7 @@ function SearchPage() {
       />
 
       <SearchResult
-        img="https://images.unsplash.com/photo-1591465709469-5de113a071cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3004&q=80"
+        img="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHZpbGxhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
         location="Private rooms in center of Greece"
         title="Cana Milene"
         description="4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine"
@@ -49,7 +49,7 @@ function SearchPage() {
         style=""
       />
       <SearchResult
-        img="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1647&q=80"
+        img="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODl8fHNwYW5pc2glMjB2aWxsYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
         location="Private rooms in center of Greece"
         title="Villa Emilto"
         description="8 guest · 6 bedroom · 8 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
@@ -69,7 +69,7 @@ function SearchPage() {
         url="/serenaVista"
       />
       <SearchResult
-        img="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80"
+        img="https://images.unsplash.com/photo-1570544820979-6eb25385944d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAxfHxzcGFuaXNoJTIwdmlsbGF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
         location="Private location in Greece"
         title="Belle Villa"
         description="6 guest · 4 bedroom · 4 bed · 3 shared bthrooms · Wifi · Washing Machine"

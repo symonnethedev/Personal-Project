@@ -1,11 +1,13 @@
 import React from "react";
 import "./canaMilene.css";
+import villa9 from "./images/44.jpeg";
 
 const canaMilene = () => {
   return (
     <div>
       <h2>Welcome Cana Milene </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
+      <img src={villa9} alt="Some text" />
 
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the

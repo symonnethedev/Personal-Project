@@ -1,12 +1,14 @@
 import React from "react";
 import "./sanLorenzo.css";
 
+import villa5 from "./images/san-lorenzo.jpeg";
+
 const SanLorenzo = () => {
   return (
     <div>
       <h2>Welcome San Lorenzo </h2>
       <p>Spain, Balearic Islands, Ibiza</p>
-
+      <img src={villa5} alt="Some text" />
       <p>
         Located in Cala Llonga, a beautiful Ibizan resort-town with one of the
         island’s largest beaches, a picturesque setting and plenty of things to
