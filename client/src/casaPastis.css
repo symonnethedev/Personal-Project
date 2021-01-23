@@ -30,3 +30,49 @@
   width: 900px;
   margin-right: 20px;
 }
+
+.casak {
+  padding: 100;
+  max-width: initial;
+  width: 100%;
+  border: none;
+  margin: 0;
+  height: 100%;
+}
+
+.cpk {
+  padding: 0;
+  max-width: initial;
+  width: 100%;
+  border: none;
+  margin: 0;
+  height: 100%;
+}
+
+.textBox2 {
+  position: relative;
+  width: 900px;
+  margin-right: 20px;
+}
+
+.feature {
+  padding-top: 100;
+}
+
+.cpl {
+  padding: 0;
+  max-width: initial;
+  width: 100%;
+  border: none;
+  margin: 0;
+  height: 100%;
+}
+
+.cpb {
+  padding: 0;
+  max-width: initial;
+  width: 100%;
+  border: none;
+  margin: 0;
+  height: 100%;
+}
