@@ -29,7 +29,7 @@ function Home() {
           url="/saCalma"
         />
         <Card
-          src="https://images.unsplash.com/photo-1560598430-aa89fdb5263e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
+          src="https://images.unsplash.com/photo-1581974206967-93856b25aa13?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
           title="Vista Alegre"
           description="Elegant decor with amazing views."
           url="/vistaAlegre"
@@ -51,7 +51,7 @@ function Home() {
           url="/sanLorenzo"
         />
         <Card
-          src="https://images.unsplash.com/photo-1590398877831-1084ac6edb63?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHNwYW5pc2glMjB2aWxsYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          src="https://images.unsplash.com/photo-1570057633897-58005bd9788f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
           title="Villa Atzi "
           description="Beautiful modern villa"
           price="£428/night"
