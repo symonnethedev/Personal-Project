@@ -12,7 +12,7 @@
   transform: scale(1.07);
 }
 
-.card > img {
+.card img {
   object-fit: fill;
   min-width: 150px;
   min-height: 100px;
