@@ -6,8 +6,11 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import Villa from "./images/mv3.jpg";
+import villaList from "./villas.json";
+import { useState } from "react";
 
 function Header() {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="header">
       <Link to="/">
@@ -15,7 +18,29 @@ function Header() {
       </Link>
 
       <div className="header__center">
-        <input type="text" />
+        <input
+          type="text"
+          onChange={(event) => {
+            setSearchTerm(event.target.value);
+          }}
+        />
+        {villaList
+          .filter((val) => {
+            if (searchTerm == "") {
+              return val;
+            } else if (
+              val.name.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return val;
+            }
+          })
+          .map((val, key) => {
+            return (
+              <div className="user" key={key}>
+                <p>{val.name} </p>
+              </div>
+            );
+          })}
         <SearchIcon />
       </div>
 

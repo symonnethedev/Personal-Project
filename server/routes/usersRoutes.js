@@ -4,6 +4,7 @@ const User = mongoose.model("users");
 module.exports = (app) => {
   app.get(`/api/user`, async (req, res) => {
     const persons = await User.find();
+
     return res.status(200).send(persons);
   });
 

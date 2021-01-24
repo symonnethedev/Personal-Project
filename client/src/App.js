@@ -7,7 +7,6 @@ import SearchPage from "./SearchPage";
 import Login from "./Login";
 import CasaPastis from "./CasaPastis";
 import VistaAlegre from "./VistaAlegre";
-import Like from "./Like";
 import BelleVilla from "./BelleVilla";
 import VillaYama from "./VillaYama";
 import VillaMieke from "./VillaMieke";
