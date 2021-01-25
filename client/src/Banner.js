@@ -25,7 +25,7 @@ function Banner() {
         <h1>The luxury that you long for</h1>
         <h5>Deluxe destinations.</h5>
         <Button onClick={() => history.push("/search")} variant="outlined">
-          Explore Nearby
+          Top Picks
         </Button>
       </div>
     </div>

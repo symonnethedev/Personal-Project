@@ -1,9 +1,12 @@
 import React from "react";
 import "./casaPastis.css";
 import villa1 from "./images/cp1.jpg";
-import cpk from "./images/cpk.jpeg";
+import cpki from "./images/cpki.jpg";
 import cpl from "./images/cpl.jpeg";
 import cpb from "./images/cpb.jpeg";
+import si from "./images/Si.jpg";
+//import Box from "@material-ui/core/Box";
+//import Button from "@material-ui/core/Button";
 
 const casaPastis = () => {
   return (
@@ -59,7 +62,7 @@ const casaPastis = () => {
 
       <section>
         <div>
-          <img src={cpk} alt="image" class="cpk" />
+          <img src={cpki} alt="image" class="cpk" />
 
           <div class="content">
             <div className="title">

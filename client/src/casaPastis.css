@@ -76,3 +76,10 @@
   margin: 0;
   height: 100%;
 }
+
+.si {
+  width: 100;
+  display: inline-block;
+  margin-right: 0;
+  padding: 0;
+}
