@@ -7,7 +7,7 @@ function SearchPage() {
   return (
     <div className="searchPage">
       <div className="searchPage__info">
-        <p>62 stays · 26 Dec to 30 Dec · 2 guest</p>
+        <p>62 stays · 01 Feb to 28 Feb · 2 guest</p>
         <h1>Stays nearby</h1>
         <Button variant="outlined">Cancellation Flexibility</Button>
         <Button variant="outlined">Type of place</Button>
@@ -17,7 +17,7 @@ function SearchPage() {
       </div>
       <SearchResult
         location="Private rooms near the center of Greece"
-        img="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlsbGF8ZW58MHx8MHw%3D&auto=format&fit=crop&w=800&q=60"
+        img="https://images.unsplash.com/photo-1570544820979-6eb25385944d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60"
         title="Villa Mieke"
         description=" 6 guest · 4 bedroom · 6 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
         star={4.73}
