@@ -1,6 +1,6 @@
 import react from "react";
 import "./villaMieke.css";
-import villa7 from "./images/VA.jpg";
+import vmm from "./images/vmm.jpeg";
 import cpki from "./images/cpki.jpg";
 import cpl from "./images/cpl.jpeg";
 import cpb from "./images/cpb.jpeg";
@@ -9,7 +9,7 @@ const villaMieke = () => {
   return (
     <div>
       <section>
-        <img src={villa7} alt="image" class="casa" />
+        <img src={vmm} alt="image" class="casa" />
 
         <div class="content">
           <div className="title">

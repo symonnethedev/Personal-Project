@@ -17,7 +17,7 @@ function SearchPage() {
       </div>
       <SearchResult
         location="Private rooms near the center of Greece"
-        img="https://images.unsplash.com/photo-1570544820979-6eb25385944d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60"
+        img="https://images.unsplash.com/photo-1570057633897-58005bd9788f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjI4fHxsdXh1cnklMjB2aWxsYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
         title="Villa Mieke"
         description=" 6 guest · 4 bedroom · 6 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
         star={4.73}
