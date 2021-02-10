@@ -4,7 +4,6 @@ import SearchIcon from "@material-ui/icons/Search";
 import { Avatar } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import Villa from "./images/mv3.jpg";
-//import villaList from "./villas.json";
 
 function Header() {
   return (
