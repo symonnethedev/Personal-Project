@@ -7,23 +7,23 @@ import Villa from "./images/mv3.jpg";
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <Link to="/">
         <img className="header_icon" src={Villa} alt="" />
       </Link>
 
-      <div className="header__center">
+      <header className="header__center">
         <input type="text"></input>
         <SearchIcon />
-      </div>
+      </header>
 
-      <div className="header__right">
+      <header className="header__right">
         <Link to="/login" style={{ textDecoration: "none" }}>
           <Avatar />
           <h3> My Account </h3>
         </Link>
-      </div>
-    </div>
+      </header>
+    </header>
   );
 }
 
