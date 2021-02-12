@@ -20,11 +20,15 @@
   flex-direction: column;
 }
 
+.banner__searchButton > button:hover {
+  background-color: white;
+}
+
 .banner__searchButton {
-  background-color: white !important;
+  background-color: #4b0082 !important;
   font-weight: 900 !important;
   text-transform: inherit !important;
-  color: #4b0082 !important;
+  color: #ffff !important;
 }
 
 .banner__info > button {

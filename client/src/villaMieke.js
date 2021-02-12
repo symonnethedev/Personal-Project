@@ -13,7 +13,7 @@ const villaMieke = () => {
 
         <div class="content">
           <div className="title">
-            <h2 class="titleText">Welcome Casa pastis </h2>
+            <h2 class="titleText">Welcome Villa Mieke </h2>
             <p>Spain, Balearic Islands, Ibiza</p>
 
             <div className="textBox">
@@ -47,7 +47,7 @@ const villaMieke = () => {
                 option for those who need a relaxing escape but also want plenty
                 of fun options nearby.
               </p>
-              <h2>Features</h2>div
+              <h2>Features</h2>
               <p>
                 MAID, PRIVATE POOL, AIR CONDITIONING, HOUSEKEEPING, WI-FI,
                 BARBECUE and TV
@@ -63,7 +63,7 @@ const villaMieke = () => {
 
           <div class="content">
             <div className="title">
-              <h2 class="titleText">Welcome Casa pastis </h2>
+              <h2 class="titleText">Welcome Villa Mieke </h2>
               <p>Spain, Balearic Islands, Ibiza</p>
 
               <div className="textBox">
@@ -110,7 +110,7 @@ const villaMieke = () => {
 
           <div class="content">
             <div className="title">
-              <h2 class="titleText">Welcome Casa pastis </h2>
+              <h2 class="titleText">Welcome Villa Mieke </h2>
               <p>Spain, Balearic Islands, Ibiza</p>
 
               <div className="textBox">
@@ -157,7 +157,7 @@ const villaMieke = () => {
 
           <div class="content">
             <div className="title">
-              <h2 class="titleText">Welcome Casa pastis </h2>
+              <h2 class="titleText">Welcome Villa Mieke </h2>
               <p>Spain, Balearic Islands, Ibiza</p>
 
               <div className="textBox">
