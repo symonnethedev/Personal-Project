@@ -20,9 +20,6 @@
   flex-direction: column;
 }
 
-.banner__searchButton > button:hover {
-  background-color: white;
-}
 
 .banner__searchButton {
   background-color: #4b0082 !important;
